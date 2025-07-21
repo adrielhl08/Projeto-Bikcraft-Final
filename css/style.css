@@ -14,11 +14,12 @@
 @import "/css/home/depoimento.css";
 @import "/css/global/footer.css";
 
+/* Bicicletas */
+@import "/css/bicicletas/bicicletas-lista.css";
+@import "/css/bicicletas/bicicletas.css";
+
 /* Seguros */
 @import "/css/seguros/seguros.css";
 
 /* Termos */
 @import "/css/termos/termos.css";
-
-/* Bicicletas */
-@import "/css/bibicletas/bibicletas-lista.css";
