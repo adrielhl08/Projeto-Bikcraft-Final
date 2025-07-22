@@ -64,3 +64,9 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 469px) {
+  .header-menu {
+    padding-top: 20px;
+  }
+}
