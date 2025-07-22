@@ -12,6 +12,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   max-width: max-content;
+  cursor: pointer;
 }
 
 .botao.secundario {
@@ -22,6 +23,10 @@
 .botao.seta {
   display: flex;
   align-items: center;
+}
+
+.botao.formbtn {
+  border: none;
 }
 
 .botao.seta::after {
