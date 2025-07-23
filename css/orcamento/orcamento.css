@@ -17,7 +17,9 @@
 }
 
 .orcamento-produto {
-  background-color: var(--cor-c12);
+  background: var(--cor-c12) url("../../img/dec/bottom-left.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 20px left 20px;
   border-radius: 5px 0 0 5px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -132,7 +134,9 @@
 
 /* Orçamento Dados */
 .orcamento-dados {
-  background-color: var(--cor-c0);
+  background: var(--cor-c0) url("../../img/dec/bottom-right.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 20px right 20px;
   border-radius: 0 5px 5px 0;
 }
 .orcamento-dados button {
@@ -185,8 +189,9 @@
   .orcamento-dados {
     border-radius: 0 0 5px 5px;
   }
-  .orcamento-produtos {
+  .orcamento-produto {
     border-radius: 5px 5px 0 0;
+    background: var(--cor-c12);
   }
 }
 
